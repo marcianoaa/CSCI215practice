@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Science Fair </title>
+    <link rel="stylesheet" href="science.css">
+  </head>
+  
+<body>
+    
+
+<div id="wrapper">
+    <h1>Science Fair Registration Form</h1>
+    
+    <form method="post" action="mailto:marcianoaa@g.cofc.edu">
+    
+    <p> First Name <input type="text" name="first" id="first">
+        Last Name <input type="text" name="last" id="last">
+    </p>
+        
+    <p>Email Address:
+        <input type="email" name="email" id="email" size="50">
+    </p>
+    
+        
+    <p>State: <select name="st" id="st" size="3">
+        <option>GA</option>
+        <option selected="selected"> SC</option>
+        <option>NY</option>
+        <option>FL</option>
+        <option>VA</option>
+    </select>
+    </p>
+    
+    
+    <p>Which categories will you participate?<br>
+        <input type="checkbox" name="beg" id="beg">Beginning
+        <input type="checkbox" name="int" id="int">Intermediate
+        <input type="checkbox" name="adv" id="adv">Advanced
+        
+    </p>
+    
+    
+    <p>Would you like emails?<br>
+        <input type="radio" name="maillist" id="yes">Yes please!
+        <input type="radio" name="maillist" id="no">No, thanks
+        
+    </p>
+    
+
+    <p>Comments or special requests:<br>
+        <textarea name="comments" id="comments" cols="50" rows="5">
+        </textarea>
+        
+    </p>
+        
+        
+    <p>
+        <input type="submit" name="submit" id="submit" value="Sign up now!">
+        <input type="reset" name="reset" id="reset" value="Erase form">
+               
+    </p>
+    
+    </form>
+    
+    </div>
